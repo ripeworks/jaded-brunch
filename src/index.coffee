@@ -23,7 +23,7 @@ localRequire = (module) ->
 
 module.exports = class JadedBrunchPlugin
   brunchPlugin: yes
-  type: 'template'
+  type: 'javascript'
   extension: 'jade'
   jadeOptions: {}
 
